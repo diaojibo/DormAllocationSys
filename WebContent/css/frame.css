@@ -1,0 +1,261 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    -moz-box-sizing:padding-box;
+}
+body{
+    min-width: 600px;
+}
+#header {
+    background:#5393B9;
+    line-height: 60px;
+    float: left;
+    width: 100%;
+    min-width: 1600px;
+}
+#headerbox{
+    width: 1000px;
+}
+#logo {
+    float: left;
+    border-right: 1px solid #00636F;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#welcome{
+    float: left;
+    color: #ffffff;
+    margin-left: 10px;
+    padding-top: 3px;
+
+}
+#sidebar {
+    width: 219px;
+    background: #84C3E6;
+    height:900px;
+    float: left;
+}
+#sidebar ul{
+    list-style: none;
+}
+#sidebar ul li a{
+    text-decoration: none;
+    display: block;
+    padding-right: 6px;
+
+}
+#sidebar ul li a:hover{
+    background-color:#7E7CAE;
+    color:#fff;
+}
+#sidebar ul li a{
+    color:#f5f5f5;
+}
+#sidebar ul li {
+
+    border-bottom: 1px solid #56B3D4;
+    text-align: center;
+    line-height: 300%;
+}
+#content{
+    background-color: #f5f5f5;
+    margin-left: 219px;
+    min-width: 900px;
+}
+#content #content-header{
+    background: #ffffff;
+    line-height: 50px;
+    height: 50px;
+}
+#content #content-header a {
+    color: #666666;
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+
+#footer {
+    text-align: center;
+    line-height: 50px;
+    background: #55B2D4;
+    color: #ffffff;
+}
+
+#calendar{
+    padding-left: 20%;
+}
+
+#calendar td,th{border-left:1px solid #999;border-bottom:1px solid #999;padding:10px 0;text-align:center}
+#calendar table{border-right:1px solid #999;border-top:1px solid #999}
+#calendar th{background:#666;color:#fff}
+#calendar .other-month{background:#eee}
+
+/*table*/
+.table-box{
+    background: #f9f9f9;
+    border: 1px solid #CDCDCD;
+
+}
+.table-title{
+    background: #AAD6F1;
+    border:#CDCDCD 1px solid;
+    height: 34px;
+
+}
+.table-title span{
+    padding:9px 10px 7px 11px;
+    float: left;
+    border-right: 1px solid #dadada;
+}
+.table-title h5{
+    float: left;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 12px;
+    line-height: 10px;
+    margin: 0;
+}
+.table-control{
+
+}
+/*form*/
+.formcontrol{
+    float: left;
+    line-height: 20px;
+    padding: 5px;
+}
+.inputcontrol{
+    float: left;
+    margin-left: 10px;
+    margin-top: 4px;
+
+}
+.inputlabel{
+    float: left;
+    margin-left: 10px;
+    font-weight: bold;
+}
+/*
+ dorm
+*/
+#dorm{
+    margin-left: 30px;
+    float: left;
+}
+#dorm h2{
+}
+#dormbox{
+    width: 700px;
+    margin-top: 20px;
+}
+#dormbox h4{
+    margin-left: 30px;
+}
+#dormtable{
+    padding: 20px;
+}
+
+/*maintain */
+#maintain{
+    margin-left: 30px;
+    float: left;
+
+}
+#maintain h5{
+}
+#maintain #maintain-apply{
+    float:left ;
+    width: 300px;
+}
+#maintain #maintain-history{
+    float: left;
+    margin-left: 30px;
+    width: 450px;
+}
+#maintain #mtform{
+    float: left;
+    padding-top: 10px;
+}
+#maintain #submitbtn{
+    margin-left: 220px;
+    margin-top: 20px;
+}
+
+/*water */
+#water{
+    margin-left: 30px;
+    float: left;
+
+}
+#water h5{
+}
+#water #water-apply{
+    float:left ;
+    width: 300px;
+}
+#water #water-history{
+    float: left;
+    margin-left: 30px;
+    width: 450px;
+}
+#water #wtform{
+    float: left;
+    padding-top: 10px;
+}
+#water #submitbtn{
+    margin-left: 220px;
+    margin-top: 20px;
+}
+#water .shortlen{
+    width: 50px;
+}
+
+/*postcard*/
+#postcard{
+    margin-left: 30px;
+    float: left;
+}
+#postcard h2{
+}
+#postcardbox{
+    width: 700px;
+    margin-top: 20px;
+}
+#postcard h4{
+    margin-left: 30px;
+}
+#postcardtable{
+    padding: 20px;
+}
+#postcardtable td{
+    text-align: center;
+}
+
+/* qestionnaire */
+#questionnaire{
+    margin-left: 30px;
+    float: left;
+    min-width: 1000px;
+}
+#questionnaire .alert-box{
+    background: #fcf8e3;
+    color:#c09853;
+}
+#questions{
+    margin-top: 50px;
+    border-top: 1px solid #654864;
+    font-size: 17px;
+    border-bottom: 1px solid #654864;
+}
+#questions .question{
+    margin-top: 15px;
+    border-bottom: 1px solid #654864;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+#submit_question{
+    margin-left: 500px;
+    margin-bottom: 50px;
+    width: 50px;
+    font: 14px;
+}

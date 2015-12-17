@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+    xmlns="http://java.sun.com/xml/ns/j2ee" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+        http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+        
+  
+  <servlet>
+  <servlet-name>LoginCheck</servlet-name>
+  <servlet-class>Controller.LoginCheck</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginCheck</servlet-name>
+    <url-pattern>/LoginCheck</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Dorminfo</servlet-name>
+  <servlet-class>Controller.Dorminfo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dorminfo</servlet-name>
+    <url-pattern>/stu_dms/Dorminfo</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>MaintainInfo</servlet-name>
+  <servlet-class>Controller.MaintainInfo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MaintainInfo</servlet-name>
+    <url-pattern>/stu_dms/MaintainInfo</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>WaterInfo</servlet-name>
+  <servlet-class>Controller.WaterInfo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>WaterInfo</servlet-name>
+    <url-pattern>/stu_dms/WaterInfo</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  <servlet-name>PostInfo</servlet-name>
+  <servlet-class>Controller.PostInfo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PostInfo</servlet-name>
+    <url-pattern>/stu_dms/PostInfo</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Questionnaire</servlet-name>
+  <servlet-class>Controller.Questionnaire</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Questionnaire</servlet-name>
+    <url-pattern>/stu_dms/Questionnaire</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>MaintainUpdate</servlet-name>
+  <servlet-class>Controller.MaintainUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MaintainUpdate</servlet-name>
+    <url-pattern>/stu_dms/MaintainUpdate</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>WaterUpdate</servlet-name>
+  <servlet-class>Controller.WaterUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>WaterUpdate</servlet-name>
+    <url-pattern>/stu_dms/WaterUpdate</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>DormSearch</servlet-name>
+  <servlet-class>Controller.DormSearch</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DormSearch</servlet-name>
+    <url-pattern>/manager_dms/DormSearch</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>MaintainSearch</servlet-name>
+  <servlet-class>Controller.MaintainSearch</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MaintainSearch</servlet-name>
+    <url-pattern>/manager_dms/MaintainSearch</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>WaterSearch</servlet-name>
+  <servlet-class>Controller.WaterSearch</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>WaterSearch</servlet-name>
+    <url-pattern>/manager_dms/WaterSearch</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>VisitUpdate</servlet-name>
+  <servlet-class>Controller.VisitUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>VisitUpdate</servlet-name>
+    <url-pattern>/manager_dms/VisitUpdate</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>VisitSearch</servlet-name>
+  <servlet-class>Controller.VisitSearch</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>VisitSearch</servlet-name>
+    <url-pattern>/manager_dms/VisitSearch</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  <servlet-name>LateUpdate</servlet-name>
+  <servlet-class>Controller.LateUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LateUpdate</servlet-name>
+    <url-pattern>/manager_dms/LateUpdate</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+  <servlet-name>LateSearch</servlet-name>
+  <servlet-class>Controller.LateSearch</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LateSearch</servlet-name>
+    <url-pattern>/manager_dms/LateSearch</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>ThingsUpdate</servlet-name>
+  <servlet-class>Controller.ThingsUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ThingsUpdate</servlet-name>
+    <url-pattern>/manager_dms/ThingsUpdate</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  <servlet-name>ThingsSearch</servlet-name>
+  <servlet-class>Controller.ThingsSearch</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ThingsSearch</servlet-name>
+    <url-pattern>/manager_dms/ThingsSearch</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+  <servlet-name>PostcardSearch</servlet-name>
+  <servlet-class>Controller.PostcardSearch</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PostcardSearch</servlet-name>
+    <url-pattern>/manager_dms/PostcardSearch</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>PostcardUpdate</servlet-name>
+  <servlet-class>Controller.PostcardUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PostcardUpdate</servlet-name>
+    <url-pattern>/manager_dms/PostcardUpdate</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  <servlet-name>MaintainConfirm</servlet-name>
+  <servlet-class>Controller.MaintainConfirm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MaintainConfirm</servlet-name>
+    <url-pattern>/manager_dms/MaintainConfirm</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>WaterConfirm</servlet-name>
+  <servlet-class>Controller.WaterConfirm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>WaterConfirm</servlet-name>
+    <url-pattern>/manager_dms/WaterConfirm</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  <servlet-name>Fensu</servlet-name>
+  <servlet-class>Controller.Fensu</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Fensu</servlet-name>
+    <url-pattern>/manager_dms/Fensu</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>FensuInfo</servlet-name>
+  <servlet-class>Controller.FensuInfo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FensuInfo</servlet-name>
+    <url-pattern>/manager_dms/FensuInfo</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  <servlet-name>ExcelExport</servlet-name>
+  <servlet-class>Controller.ExcelExport</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ExcelExport</servlet-name>
+    <url-pattern>/manager_dms/ExcelExport</url-pattern>
+  </servlet-mapping>
+  
+</web-app> 

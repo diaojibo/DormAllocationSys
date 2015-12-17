@@ -1,0 +1,74 @@
+body{
+    background-color: #2E363F;
+    padding: 0;
+    margin-top: 10%;
+}
+#loginbox{
+    width: 32%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #3f4954;
+    border-bottom: 1px solid #3f4954;
+    min-width: 500px;
+    min-height: 250px;
+    display: block;
+}
+#loginform{
+    width: 100%;
+    display: block;
+}
+#logo{
+    padding-top: 20px;
+    padding-right: 10px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+}
+.inputbox{
+    margin-left: 80px;
+}
+.control_group{
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    display: block;
+}
+.bg_lg{
+    background: #28b779;
+}
+.bg_ly{
+    background:#ffb848;
+}
+.my-add-on{
+    padding-top: 9px;
+    padding-right:9px ;
+    color: #ffffff;
+    width: 30px;
+    display: inline-block;
+}
+#user_input{
+    width: 75%;
+}
+#user_pwd{
+    width: 75%;
+}
+.form-control{
+    width: 75%;
+}
+.icons{
+    margin: 0px;
+    padding: 0px;
+}
+#loginbutton{
+    margin-left: 140px;
+    margin-top: -10px;
+
+}
+#radiobox{
+    color: #ffffff;
+    margin-left: 80px;
+}
+
+.myleft{
+    float: left;
+}
